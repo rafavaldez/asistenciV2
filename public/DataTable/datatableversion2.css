@@ -1,0 +1,74 @@
+
+.dataTable th {
+    font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px; /* Cambiar el tamaño de la letra */
+    color: #697a8d;
+    text-transform: uppercase!important;
+    border-left: 1px solid rgba(0, 0, 0, 0)!important;
+    background-color: white!important;
+}
+
+/* Estilo para todas las celdas de datos */
+.dataTable td {
+  font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; /* Cambiar la fuente */
+  font-size: 16px; /* Cambiar el tamaño de la letra */
+  color: #697a8d; /* Cambiar el color del texto */
+  border-left: 1px solid rgba(0, 0, 0, 0)!important;
+}
+.ui.grid {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.ui.unstackable.pagination.menu {
+font-family: 'Montserrat', sans-serif!important;
+}
+div#miTabla_info {
+    color: #a1acb8!important;
+}
+
+select#dt-length-0 {
+border-radius: 10px!important;
+color: #697a8d!important;
+border: 0.25px solid #DDD!important;
+transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out!important;
+}
+
+.dataTables_length.dataTables_info select:focus {
+  border-color: #000 !important; /* Black border on focus (visual cue) */
+  outline: none; /* Remove default browser outline */
+  color: #697a8d;
+}
+
+/* Estilo predeterminado del cuadro */
+/* Estilo predeterminado del cuadro */
+.dt-input {
+  /* Estilos básicos */
+  border: 1px solid #ccc!important;
+  padding: 5px!important;
+  border-radius:10px!important;
+  color: #697a8d!important;
+}
+
+/* Estilo cuando está enfocado */
+.dt-input:focus {
+  /* Estilos cuando está enfocado */
+  outline: none!important; /* Elimina el contorno al estar enfocado */
+}
+
+table.dataTable.ui.table th.dt-type-numeric, table.dataTable.ui.table th.dt-type-date, table.dataTable.ui.table td.dt-type-numeric, table.dataTable.ui.table td.dt-type-date {
+text-align: left!important;
+color: #697a8d;
+}
+
+.editar-icon,
+.agregar-icon {
+cursor: pointer;
+margin-right: 10px; /* Agrega un espacio entre los iconos */
+}
+
+.editar-icon:hover,
+.agregar-icon:hover {
+color: blue; /* Cambia el color del icono al pasar el mouse sobre él */
+}
+
+
